@@ -2,7 +2,7 @@ import React from "react";
 import { MdDownload } from "react-icons/md";
 import Image from "next/image";
 import cvpic from "../public/cvpic.png";
-import styles from "./about.module.css"; // Import the CSS Module
+import styles from "./About.module.css"; // Import the CSS Module
 
 const About = () => {
   return (
