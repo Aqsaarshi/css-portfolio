@@ -1,0 +1,49 @@
+/* Footer.module.css */
+
+.footer {
+  background-color: #cbd5e1; /* Slate-400 color */
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footerLogoText {
+  margin-left: 12px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1f2937; /* Gray-900 */
+}
+
+.footerText {
+  font-size: 0.875rem;
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footerIcon {
+  color: black;
+}
+
+.footerIcon:hover {
+  color: #4c51bf; /* Purple-600 on hover */
+}

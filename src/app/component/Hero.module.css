@@ -1,0 +1,71 @@
+/* Hero.module.css */
+
+.heroSection {
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 2rem;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+}
+
+.heroTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1f2937; /* Gray-900 */
+  margin-bottom: 1rem;
+}
+
+.typewriterText {
+  color: #6b46c1; /* Purple-700 */
+}
+
+.heroDivider {
+  width: 100px;
+  height: 2px;
+  background-color: #6b46c1; /* Purple-700 */
+  margin: 1rem 0;
+}
+
+.heroDescription {
+  margin-bottom: 2rem;
+  color: #1a202c; /* Text color */
+  line-height: 1.5;
+}
+
+.heroButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.heroButton {
+  padding: 0.5rem 1.5rem;
+  background-color: #6b46c1; /* Purple-700 */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: #4c51bf; /* Purple-600 */
+}
+
+.heroImageContainer {
+  max-width: 300px;
+  width: 100%;
+  margin-top: 2rem;
+}
